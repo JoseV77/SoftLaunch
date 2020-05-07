@@ -1,0 +1,335 @@
+/* Colors */
+@red: #FF0000;
+@white: #FFFFFF;
+@black: #000000;
+
+/* Sldeshow Sizes */
+@maxwidth-mobile: 22em;
+@max-height-mobile: 13em;
+@maxheight-tablet: 25em;
+@maxwidth-tablet: 45em;
+@maxheight-desktop: 30em;
+@maxwidth-desktop: 45em;
+
+
+
+@text-padding: 1em;
+
+/* --- Mobile Stylesheets --- */
+body {
+    overflow-x: hidden;
+    background-color: @black;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav,
+#links,
+a,
+p {
+    color: @white;
+}
+
+#desktop-nav {
+    display: none;
+}
+
+#mobile-nav {
+    overflow: hidden;
+    position: relative;
+}
+
+#mobile-nav h1 {
+    font-size: 2em;
+}
+
+#mobile-nav #links {
+    display: none;
+    text-decoration: none;
+    padding-bottom: 0.5em;
+}
+
+#mobile-nav a {
+    text-decoration: none;
+    display: block;
+    font-size: 1.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.fa-bars {
+    color: @red;
+    float: right;
+    font-size: 3em;
+    position: relative;
+    right: 0.2em;
+    top: 0.3em;
+}
+
+.fa-bars:active {
+    opacity: 0.5;
+}
+
+#text {
+    padding-left: @text-padding;
+    padding-right: @text-padding;
+}
+
+#socialmedia-feed,
+#weather-feed,
+#text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb-page {
+    width: 25em;
+    height: 10em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+#weather-feed {
+    max-width: @maxwidth-mobile;
+    max-height: @max-height-mobile;
+    margin-top: 1em;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: solid @red 2px;
+}
+
+footer p {
+    font-style: italic;
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+/* Mobile Slideshow */
+
+#slideshow {
+    max-width: @maxwidth-mobile;
+    max-height: @max-height-mobile;
+    position: relative;
+    margin: auto;
+    background-color: @black;
+    border: solid @white 1px;
+}
+
+#slideshow img {
+    max-width: @maxwidth-mobile;
+    max-height: @max-height-mobile;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+#front {
+    display: inline;
+}
+
+.mySlides {
+    display: none;
+}
+
+.number {
+    color: @white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: @red;
+    font-weight: bold;
+    font-size: 2em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:active,
+.next:active {
+    background-color: #cfcfcf;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* Tablet Stylesheets */
+
+@media only screen and (min-width: 481px) {
+
+    #mobile-nav {
+        margin-left: 1em;
+    }
+
+    .fa-bars {
+        margin-right: 0.1em;
+    }
+
+    #slideshow {
+        max-width: @maxwidth-tablet;
+        max-height: @maxheight-tablet;
+    }
+
+    #slideshow img {
+        max-width: @maxwidth-tablet;
+        max-height: @maxheight-tablet;
+    }
+
+    #socialmedia-feed {
+        position: relative;
+        left: 1em;
+    }
+
+    #weather-feed {
+        position: relative;
+        left: 12.5em;
+        bottom: 27em;
+    }
+
+    .fb-page {
+        width: 25em;
+        height: 10em;
+    }
+
+    #weather-feed,
+    .weatherwidget-io {
+        width: 20em;
+        height: 20em;
+    }
+
+}
+
+/* Desktop Stylesheets */
+
+@media only screen and (min-width: 1025px) {
+
+    html,
+    body,
+    main {
+        padding: 0;
+        margin: 0;
+    }
+
+    #wrapper {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+    #desktop-nav {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        align-items: center;
+        -webkit-align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 1.2em;
+        border-bottom: solid @red 2px;
+    }
+
+    #desktop-nav h1 {
+        margin-right: auto;
+    }
+
+    #desktop-nav a {
+        display: inline-block;
+        padding: 0px 20px;
+        text-decoration: none;
+    }
+
+    .icon,
+    .fa-bars,
+    #mobile-nav {
+        display: none;
+    }
+
+    #grid-items {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 1fr));
+        grid-gap: 5em;
+        padding: 1em;
+    }
+
+    #slideshow {
+        max-width: @maxwidth-desktop;
+        max-height: @maxheight-desktop;
+    }
+
+    #slideshow img {
+        max-width: @maxwidth-desktop;
+        max-height: @maxheight-desktop;
+    }
+
+    #socialmedia-feed,
+    #weather-feed,
+    #text {
+        position: static;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #socialmedia-feed {
+        margin-left: 2em;
+    }
+
+    #weather-feed {
+        margin-left: 3.5em;
+    }
+
+    .weatherwidget-io {
+        width: 21.4em;
+    }
+
+    footer {
+        margin-top: 3em;
+    }
+
+}
