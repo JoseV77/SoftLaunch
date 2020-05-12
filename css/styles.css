@@ -19,6 +19,18 @@ table,
 p {
   color: #FFFFFF;
 }
+h1,
+h2,
+h3,
+nav {
+  font-family: 'Anton', sans-serif;
+}
+form,
+li,
+table,
+p {
+  font-family: 'Roboto', sans-serif;
+}
 #desktop-nav {
   display: none;
 }
