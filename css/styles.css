@@ -275,7 +275,7 @@ form {
   #grid-items {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
-    grid-gap: 5em;
+    grid-gap: 15em;
     padding: 1em;
   }
   #register-grid {
@@ -286,6 +286,7 @@ form {
   #slideshow {
     max-width: 45em;
     max-height: 30em;
+    margin-right: auto;
   }
   #slideshow img {
     max-width: 45em;
