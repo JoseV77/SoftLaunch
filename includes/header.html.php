@@ -16,7 +16,6 @@
             <div id="links">
                 <a href="index.php">Home</a>
                 <a href="events.php">Events</a>
-                <a href="contact.php">Contact</a>
             </div>
         </nav>
     </header>
