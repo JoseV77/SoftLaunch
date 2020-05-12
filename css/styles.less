@@ -28,6 +28,9 @@ h4,
 nav,
 #links,
 a,
+li,
+form,
+table,
 p {
     color: @white;
 }
@@ -41,8 +44,10 @@ p {
     position: relative;
 }
 
-#mobile-nav h1 {
-    font-size: 2em;
+#mobile-nav #logo {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
 }
 
 #mobile-nav #links {
@@ -96,6 +101,23 @@ p {
     max-width: @maxwidth-mobile;
     max-height: @max-height-mobile;
     margin-top: 1em;
+}
+
+table {
+    table-layout: fixed;
+    margin: auto;
+    border: solid @white 2px;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+    border: solid @white 1px;
+}
+
+td {
+    text-align: center;
 }
 
 footer {
@@ -199,6 +221,34 @@ footer p {
     }
 }
 
+/* Form */
+
+#formBox {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+#submit {
+    background: @black;
+    border: solid @red 2px;
+    color: @red;
+    border-radius: 25%;
+    padding: 0.5em;
+}
+
+#submit:active {
+    background: @red;
+    color: @black;
+}
+
 /* Tablet Stylesheets */
 
 @media only screen and (min-width: 481px) {
@@ -208,6 +258,7 @@ footer p {
     }
 
     .fa-bars {
+        margin-top: 0.1em;
         margin-right: 0.1em;
     }
 
@@ -270,12 +321,15 @@ footer p {
         -webkit-align-items: center;
         padding-left: 1em;
         padding-right: 1em;
-        font-size: 1.2em;
+        font-size: 1.3em;
         border-bottom: solid @red 2px;
     }
 
-    #desktop-nav h1 {
+    #desktop-nav #logo {
         margin-right: auto;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
     }
 
     #desktop-nav a {
@@ -294,6 +348,12 @@ footer p {
         display: grid;
         grid-template-columns: repeat(2, minmax(140px, 1fr));
         grid-gap: 5em;
+        padding: 1em;
+    }
+
+    #register-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 1fr));
         padding: 1em;
     }
 

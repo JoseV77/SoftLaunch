@@ -12,6 +12,9 @@ h4,
 nav,
 #links,
 a,
+li,
+form,
+table,
 p {
   color: #FFFFFF;
 }
@@ -22,8 +25,10 @@ p {
   overflow: hidden;
   position: relative;
 }
-#mobile-nav h1 {
-  font-size: 2em;
+#mobile-nav #logo {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
 }
 #mobile-nav #links {
   display: none;
@@ -69,6 +74,21 @@ p {
   max-width: 22em;
   max-height: 13em;
   margin-top: 1em;
+}
+table {
+  table-layout: fixed;
+  margin: auto;
+  border: solid #FFFFFF 2px;
+  width: 90%;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 5px;
+  border: solid #FFFFFF 1px;
+}
+td {
+  text-align: center;
 }
 footer {
   margin-top: 1em;
@@ -153,12 +173,36 @@ footer p {
     opacity: 1;
   }
 }
+/* Form */
+#formBox {
+  display: block;
+  text-align: center;
+}
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 1.5em;
+}
+#submit {
+  background: #000000;
+  border: solid #FF0000 2px;
+  color: #FF0000;
+  border-radius: 25%;
+  padding: 0.5em;
+}
+#submit:active {
+  background: #FF0000;
+  color: #000000;
+}
 /* Tablet Stylesheets */
 @media only screen and (min-width: 481px) {
   #mobile-nav {
     margin-left: 1em;
   }
   .fa-bars {
+    margin-top: 0.1em;
     margin-right: 0.1em;
   }
   #slideshow {
@@ -209,11 +253,14 @@ footer p {
     -webkit-align-items: center;
     padding-left: 1em;
     padding-right: 1em;
-    font-size: 1.2em;
+    font-size: 1.3em;
     border-bottom: solid #FF0000 2px;
   }
-  #desktop-nav h1 {
+  #desktop-nav #logo {
     margin-right: auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
   }
   #desktop-nav a {
     display: inline-block;
@@ -229,6 +276,11 @@ footer p {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
     grid-gap: 5em;
+    padding: 1em;
+  }
+  #register-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
     padding: 1em;
   }
   #slideshow {
