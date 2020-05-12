@@ -18,7 +18,7 @@
 
                 <h2>Ask Your Questions Here!</h2>
 
-                <form method="post" action="">
+                <form method="post" action=" ">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required><br><br>
 
@@ -28,12 +28,12 @@
                     <label for="question">Question:</label><br>
                     <textarea rows="10" cols="40" name="question" id="question" required></textarea><br><br>
 
-                    <label for="type">Are you a:</label><br>
-                    <input type="radio" id="type" name="person" value="athlete">
+                    <label>Are you a:</label><br>
+                    <input type="radio" id="athlete" name="person" value="athlete">
                     <label for="athlete">Athlete</label><br>
-                    <input type="radio" id="type" name="person" value="volunteer">
+                    <input type="radio" id="volunteer" name="person" value="volunteer">
                     <label for="volunteer">Volunteer</label><br>
-                    <input type="radio" id="type" name="person" value="party">
+                    <input type="radio" id="interestedParty" name="person" value="party">
                     <label for="interestedParty">Interested Party</label><br><br>
                     <input id="submit" type="submit" value="Submit">
                 </form>
