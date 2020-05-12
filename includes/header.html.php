@@ -4,7 +4,7 @@
         </a>
 
         <nav id="desktop-nav">
-            <img src="images/aceintheholeLogo.png" id="logo" alt="logo">
+            <img src="images/aceintheholeLogo.png" class="logo" alt="logo">
             <a href="index.php">Home</a>
             <a href="events.php">Events</a>
             <a href="register.php">Register</a>
@@ -12,7 +12,7 @@
         </nav>
 
         <nav id="mobile-nav">
-            <img src="images/logo2.jpg" id="logo" alt="ace">
+            <img src="images/logo2.jpg" class="logo" alt="ace">
             <div id="links">
                 <a href="index.php">Home</a>
                 <a href="events.php">Events</a>

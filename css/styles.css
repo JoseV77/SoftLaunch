@@ -25,7 +25,7 @@ p {
   overflow: hidden;
   position: relative;
 }
-#mobile-nav #logo {
+#mobile-nav .logo {
   object-fit: cover;
   width: 175px;
   height: 63px;
@@ -256,7 +256,7 @@ form {
     font-size: 1.3em;
     border-bottom: solid #FF0000 2px;
   }
-  #desktop-nav #logo {
+  #desktop-nav .logo {
     margin-right: auto;
     width: 150px;
     height: 150px;
