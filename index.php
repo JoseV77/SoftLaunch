@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://kit.fontawesome.com/cf72e27b3d.js" crossorigin="anonymous"></script>
-    <script src="scripts.js" type="text/javascript"></script>
-    <title>Ace in the Hole Multisports Events</title>
-</head>
+<?php require_once("includes/head.html.php"); ?>
 
 <body>
 
@@ -16,28 +9,7 @@
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0">
     </script>
 
-    <header>
-        <a href="javascript:void(0);" class="icon" onclick="dropLinks()">
-            <i class="fas fa-bars"></i>
-        </a>
-
-        <nav id="desktop-nav">
-            <img src="images/aceintheholeLogo.png" id="logo">
-            <a href="index.html">Home</a>
-            <a href="events.html">Events</a>
-            <a href="register.html">Register</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-
-        <nav id="mobile-nav">
-            <img src="images/aceintheholeLogo.png" id="logo">
-            <div id="links">
-                <a href="index.html">Home</a>
-                <a href="events.html">Events</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
-    </header>
+    <?php require_once("includes/header.html.php"); ?>
 
     <main>
 
@@ -47,22 +19,7 @@
 
                 <div id="block1">
 
-                    <div id="slideshow">
-
-                        <div class="mySlides fade" id="front">
-                            <div class="number">1 / 18</div>
-                            <img src="images/placeholder.jpg" alt="placeholder">
-                        </div>
-
-                        <div class="mySlides fade">
-                            <div class="number">2 / 18</div>
-                            <img src="images/ace1.jpg" alt="placeholder">
-                        </div>
-
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                    </div>
+                  <?php require_once("includes/slideshow.html.php"); ?>
 
                     <div id="text">
                         <h2>Heading 2</h2>
@@ -107,9 +64,7 @@
 
     </main>
 
-    <footer>
-        <p>Copyright &copy; 2020 Ace in the Hole Multisport Events</p>
-    </footer>
+    <?php require_once("includes/footer.html.php"); ?>
 
 </body>
 
