@@ -47,8 +47,8 @@
                         <label for="eName">Emergency Contact Name:</label>
                         <input type="text" id="eName" name="contactName" required><br>
 
-                        <label for="emergencyPhone">Enter your emergency contacts phone:</label>
-                        <input type="tel" id="emergencyPhone" name="phone" placeholder="503-333-333"
+                        <label for="ePhone">Enter your emergency contacts phone:</label>
+                        <input type="tel" id="ePhone" name="ePhone" placeholder="503-333-333"
                             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
 
                         <label for="genders">Gender:</label>
@@ -61,7 +61,7 @@
 
 
                         <label for="eventsSaturday"><strong>Saturday</strong> Events Registering For:</label>
-                        <select id="eventsSaturday" name="events">
+                        <select id="eventsSaturday" name="eventsSaturday">
                             <option value="long">Long Course Triathlon 7:00 AM</option>
                             <option value="olympic">Olympic Triathlon 7:30 AM</option>
                             <option value="10k">10K 7:15 AM</option>
@@ -69,7 +69,7 @@
                         </select><br><br>
 
                         <label for="eventsSunday"><strong>Sunday</strong> Events Registering For:</label>
-                        <select id="eventsSunday" name="events">
+                        <select id="eventsSunday" name="eventsSaturday">
                             <option value="spring">Sprint Triathlon 8:00 AM</option>
                             <option value="try">Try-a-Tri 8:20 AM</option>
                             <option value="splash">Splash n Dash 12:00 PM</option>
