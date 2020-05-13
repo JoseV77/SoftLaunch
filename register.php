@@ -48,9 +48,8 @@
                             <option value="male">Male</option>
                             <option value="female">Female</option>
                             <option value="nonBinary">Non-binary</option>
-                        </select><br>
-                        <label for="other">Other:</label>
-                        <input type="text" id="other" name="other"><br><br>
+                            <option value="other">Other</option>
+                        </select><br><br>
 
 
                         <label for="eventsSaturday"><strong>Saturday</strong> Events Registering For:</label>
