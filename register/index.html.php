@@ -27,41 +27,38 @@ if ((isset($_POST['myfname'])) && (empty ($_POST['honeypot']))) {
       $participants = $_POST['mygroup'];
       $allergies = $_POST['mycomments'];
 
-    // If the if statement is true, save each form field value as a variable. These variable values will be used in the thank you page.
-
-    // And run the try/catch to attempt to insert data in the database. Modify the INSERT statement to write all the form filed values (except the honeypot) to the database.
     try {
-      $sql = 'INSERT INTO reservations SET
-          tour = :tour,
-          fname = :fname,
-          lname = :lname,
+      $sql = 'INSERT INTO registrations SET
+          name = :name,
+          age = :age,
+          role = :role,
           email = :email,
-          phone = :phone,
-          date = :date,
-          participants = :participants,
-          allergies = :allergies';
+          econtactname = :econtactname,
+          econtactphone = :econtactphone,
+          gender = :gender,
+          saturdayevent = :saturdayevent,
+          sundayevent = :sundayevent,
+          accommodations = :accommodations';
       $s = $pdo->prepare($sql);
-      $s->bindValue(':tour', $tour);
-      $s->bindValue(':fname', $fname);
-      $s->bindValue(':lname', $lname);
+      $s->bindValue(':name', $name);
+      $s->bindValue(':role', $role);
       $s->bindValue(':email', $email);
-      $s->bindValue(':phone', $phone);
-      $s->bindValue(':date', $date);
-      $s->bindValue(':participants', $participants);
-      $s->bindValue(':allergies', $allergies);
+      $s->bindValue(':econtactname', $econtactname);
+      $s->bindValue(':econtactphone', $econtactphone);
+      $s->bindValue(':gender', $gender);
+      $s->bindValue(':saturdayevent', $saturdayevent);
+      $s->bindValue(':sundayevent', $sundayevent);
+      $s->bindValue(':accommodations', $accommodations);
       $s->execute();
     } catch (PDOException $e) {
       $error = 'Error fetching content: ' . $e->getMessage();
       include '../includes/error.html.php';
       exit();
     }
-    // load the thank you page after the INSERT runs
 
     include 'success.html.php';
 
     } else {
 
-          include 'reservations.html.php';
+          include 'register.html.php';
     }
-
-    // Add an else to load the initial page if the initial (line 19) if statement is false
