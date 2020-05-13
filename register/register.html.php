@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php require_once("includes/head.html.php"); ?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cf72e27b3d.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <title>Ace in the Hole Multisports Events</title>
+</head>
 <body>
 
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0">
     </script>
 
-    <?php require_once("includes/header.html.php"); ?>
+    <?php require_once("../includes/header.html.php"); ?>
 
     <main>
 
@@ -67,8 +75,8 @@
                             <option value="splash">Splash n Dash 12:00 PM</option>
                         </select><br><br>
 
-                        <label for="question">Any special accommodations needed:</label><br>
-                        <textarea rows="10" cols="40" name="question" id="question"></textarea><br><br>
+                        <label for="accommodations">Any special accommodations needed:</label><br>
+                        <textarea rows="10" cols="40" name="accommodations" id="accommodations"></textarea><br><br>
                         <input id="submit" type="submit" value="Submit">
 
                     </form>
@@ -117,7 +125,7 @@
 
     </main>
 
-    <?php require_once("includes/footer.html.php"); ?>
+    <?php require_once("../includes/footer.html.php"); ?>
 
 </body>
 
