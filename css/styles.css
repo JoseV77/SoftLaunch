@@ -99,6 +99,28 @@ table {
   width: 90%;
   border-collapse: collapse;
 }
+#saturdayTable,
+#sundayTable {
+  background: #FFFFFF;
+  color: #000000;
+  border: solid #000000 2px;
+}
+#saturdayTable th {
+  border: solid #000000 1px;
+  padding: 5px;
+}
+#saturdayTable td {
+  border: solid #000000 1px;
+  padding: 5px;
+}
+#sundayTable th {
+  border: solid #000000 1px;
+  padding: 5px;
+}
+#sundayTable td {
+  border: solid #000000 1px;
+  padding: 5px;
+}
 td,
 th {
   padding: 5px;
@@ -257,6 +279,9 @@ form {
     padding: 0;
     margin: 0;
   }
+  .days {
+    text-align: center;
+  }
   #wrapper {
     padding-left: 5em;
     padding-right: 5em;
@@ -326,8 +351,15 @@ form {
   .weatherwidget-io {
     width: 21.4em;
   }
+  #saturdayTable,
+  #sundayTable {
+    width: 70%;
+  }
   #mobileText {
-    display: none;
+    table-layout: fixed;
+    margin: auto;
+    width: 75%;
+    border-collapse: collapse;
   }
   footer {
     margin-top: 3em;

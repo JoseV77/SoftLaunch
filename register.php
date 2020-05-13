@@ -110,16 +110,6 @@
                         </tbody>
                     </table>
 
-                    <h3>Cost Includes</h3>
-                    <ul>
-                        <li>Food & Beer</li>
-                        <li>Access to the weekends's live entertainment & Fitness Expo</li>
-                        <li>Commemorative Finisher medal</li>
-                        <li>Accurate Chip Timing for competitive races</li>
-                        <li>Ace in the Hole Multisport Weekend Tech Shirt</li>
-                        <li>Post-event party & entertainment</li>
-                    </ul>
-                    <p><i>Tech shirts guaranteed to pre-registered participants only</i></p>
                 </div>
 
             </div>

@@ -132,6 +132,32 @@ table {
     border-collapse: collapse;
 }
 
+#saturdayTable,
+#sundayTable {
+    background: @white;
+    color: @black;
+    border: solid @black 2px;
+}
+
+#saturdayTable th {
+    border: solid @black 1px;
+    padding: 5px;
+}
+
+#saturdayTable td {
+    border: solid @black 1px;
+    padding: 5px;
+}
+#sundayTable th {
+    border: solid @black 1px;
+    padding: 5px;
+}
+
+#sundayTable td {
+    border: solid @black 1px;
+    padding: 5px;
+}
+
 td, th {
     padding: 5px;
     border: solid @white 1px;
@@ -328,6 +354,10 @@ form {
         margin: 0;
     }
 
+    .days {
+        text-align: center;
+    }
+
     #wrapper {
         padding-left: 5em;
         padding-right: 5em;
@@ -410,8 +440,15 @@ form {
         width: 21.4em;
     }
 
+    #saturdayTable, #sundayTable {
+        width: 70%;
+    }
+
     #mobileText {
-        display: none;
+        table-layout: fixed;
+        margin: auto;
+        width: 75%;
+        border-collapse: collapse;
     }
 
     footer {
