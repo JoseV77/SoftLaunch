@@ -358,14 +358,11 @@ form {
   #detailsList {
     padding-left: 1em;
   }
-  #detailsList li {
+  li {
     margin: 1em 0;
   }
   #mobileText {
-    table-layout: fixed;
-    margin: auto;
-    width: 75%;
-    border-collapse: collapse;
+    display: none;
   }
   footer {
     margin-top: 3em;
