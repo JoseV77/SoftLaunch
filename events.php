@@ -68,24 +68,50 @@
             </table>
 
             <h3>Cost Includes</h3>
-                    <ul>
-                        <li>Food & Beer</li>
-                        <li>Access to the weekends's live entertainment & Fitness Expo</li>
-                        <li>Commemorative Finisher medal</li>
-                        <li>Accurate Chip Timing for competitive races</li>
-                        <li>Ace in the Hole Multisport Weekend Tech Shirt</li>
-                        <li>Post-event party & entertainment</li>
-                    </ul>
-                    <p><i>Tech shirts guaranteed to pre-registered participants only</i></p>
+            <ul>
+                <li>Food & Beer</li>
+                <li>Access to the weekends's live entertainment & Fitness Expo</li>
+                <li>Commemorative Finisher medal</li>
+                <li>Accurate Chip Timing for competitive races</li>
+                <li>Ace in the Hole Multisport Weekend Tech Shirt</li>
+                <li>Post-event party & entertainment</li>
+            </ul>
+            <p><i>Tech shirts guaranteed to pre-registered participants only</i></p>
 
-                    <h2>Packet Pick Up</h2>
-                    <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p> 
-                    <p><strong>COURSE DETAILS
-WATER TEMPERATURE is expected to be between 62 & 66 degrees. The temperature will be taken on Friday and the morning of the race. Wetsuits are recommended.</strong></p>
-                    <ul>
-                        <li>Long Course SWIM - 1.2mi - Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</li>
-                        <li></li>
-                    </ul>
+            <h2>Packet Pick Up</h2>
+            <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours:
+                Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p>
+            <p><strong>COURSE DETAILS
+                    WATER TEMPERATURE is expected to be between 62 & 66 degrees. The temperature will be taken on Friday
+                    and the morning of the race. Wetsuits are recommended.</strong></p>
+
+            <h2>Course Details</h2>
+            <ul id="detailsList">
+                <li><strong>Long Course SWIM - 1.2mi:</strong> Participants will make two counter-clockwise loops. Large buoys will mark
+                    the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support
+                    will be present on the beach.</li>
+                <li><strong>Long Course BIKE - 58 Miles:</strong> A scenic point-to-point course that travels over gently rolling hills
+                    prior to three hard climbs. The bike course will be marked with large directional signage and there
+                    will be course marshals at key intersections to help direct you.</li>
+                <li><strong>Long Course RUN - 13.1mi:</strong> A mostly flat loop course on widely paved bike paths that traverse
+                    through and around this beautiful and scenic destination resort (two hills total with a minimal
+                    elevation gain).</li>
+                <li><strong>OLYMPIC SWIM - 1,500 meters -</strong> Participants will make two counter-clockwise loops. Large buoys will
+                    mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical
+                    support will be present on the beach.</li>
+                <li><strong>OLYMPIC BIKE - 28mi -</strong> A scenic point-to-point course that travels over gently rolling hills. The
+                    bike course will be marked with large directional signage and course marshals will be present at key
+                    intersections.</li>
+                <li><strong>OLYMPIC RUN - 10K -</strong> A mostly flat loop course on widely paved bike paths that traverse through and
+                    around this beautiful and scenic destination resort (one hill total with a minimal elevation gain).
+                </li>
+                <li><strong>Sprint:</strong> Course will offer a 1-loop 1/2 mile swim, the exact same 28 mile Bike Course as the Olympic
+                    distance and a 5km run.</li>
+                <li><strong>Try-A-Tri:</strong> This novice race is designed for the first time triathlete, those new to the sport, our Junior Triathletes. The swim is a shorter, more manageable 1/4 mile distance, (instead of the standard 1/2-mile Sprint distance swim), 10 mile bike ride (vs 12 miles and it's a 2 loop course making it very spectator friendly!) and a flat 2 mile run (vs 3 mile sprint course).</li>
+                <li><strong>Half Marathon COURSE:</strong> Half-Marathon (13.1-miles): Half-Marathon event starts and finishes in the Athletes Village to the cheers of the enthusiastic crowd. Once finished, runners can enjoy the finish line festivities, including the Sports & Fitness Expo and live entertainment. Post-race refreshments will be provided and the Awards Ceremony for the Half-Marathon will begin once the results have been certified</li>
+                <li><strong>10k COURSE:</strong> The 10K event starts and finishes in the Athletes Village. The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.</li>
+                <li><strong>Splash n' Dash:</strong> Kids event for participants ages 4 to 15. This is a 100 yard swim and a 50 yard dash. It is free if an adult registers for an event otherwise it is $25.</li>
+            </ul>
 
         </div>
 
