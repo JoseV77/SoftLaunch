@@ -29,8 +29,8 @@
                     <h2>Register for an Event!</h2>
 
                     <form method="post" action=" ">
-                        <label for="name">Full Name:</label>
-                        <input type="text" id="name" name="name" required><br>
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" required><br>
 
                         <label for="age">Age:</label>
                         <input type="number" id="age" name="age" required><br>
@@ -44,11 +44,11 @@
                         <label for="email">Email:</label>
                         <input type="text" id="email" name="email" required><br><br>
 
-                        <label for="eName">Emergency Contact Name:</label>
-                        <input type="text" id="eName" name="contactName" required><br>
+                        <label for="ename">Emergency Contact Name:</label>
+                        <input type="text" id="ename" name="ename" required><br>
 
-                        <label for="ePhone">Enter your emergency contacts phone:</label>
-                        <input type="tel" id="ePhone" name="ePhone" placeholder="503-333-333"
+                        <label for="ephone">Enter your emergency contacts phone:</label>
+                        <input type="tel" id="ephone" name="ephone" placeholder="503-333-333"
                             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
 
                         <label for="genders">Gender:</label>

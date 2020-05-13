@@ -17,13 +17,13 @@ catch (PDOException $e)
 }
 
 // Modify the If statement so the try only runs if the First Name field has been submitted AND the honeypot field is empty ''
-if ((isset($_POST['myfname'])) && (empty ($_POST['honeypot']))) {
-      $name = $_POST['name'];
+if ((isset($_POST['fullname'])) && (empty ($_POST['honeypot']))) {
+      $name = $_POST['fullname'];
       $age = $_POST['age'];
       $role = $_POST['roles'];
       $email = $_POST['email'];
       $econtactname = $_POST['ename'];
-      $econtactphone = $_POST['emergencyphone'];
+      $econtactphone = $_POST['ephone'];
       $gender = $_POST['genders'];
       $saturdayevent = $_POST['eventsSaturday'];
       $sundayevent = $_POST['eventsSunday'];
@@ -43,6 +43,7 @@ if ((isset($_POST['myfname'])) && (empty ($_POST['honeypot']))) {
           accommodations = :accommodations';
       $s = $pdo->prepare($sql);
       $s->bindValue(':name', $name);
+      $s->bindValue(':age', $age);
       $s->bindValue(':role', $role);
       $s->bindValue(':email', $email);
       $s->bindValue(':econtactname', $econtactname);
@@ -50,7 +51,7 @@ if ((isset($_POST['myfname'])) && (empty ($_POST['honeypot']))) {
       $s->bindValue(':gender', $gender);
       $s->bindValue(':saturdayevent', $saturdayevent);
       $s->bindValue(':sundayevent', $sundayevent);
-      $s->bindValue(':accommodations', $accommodations);
+      $s->bindValue(':accommodations', $accommondations);
       $s->execute();
     } catch (PDOException $e) {
       $error = 'Error fetching content: ' . $e->getMessage();
