@@ -23,6 +23,11 @@ body {
     background-color: @black;
 }
 
+#wrapper {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 h1,
 h2,
 h3,
@@ -124,6 +129,10 @@ p {
     margin-top: 1em;
 }
 
+.days {
+    text-align: center;
+}
+
 table {
     table-layout: fixed;
     margin: auto;
@@ -148,6 +157,7 @@ table {
     border: solid @black 1px;
     padding: 5px;
 }
+
 #sundayTable th {
     border: solid @black 1px;
     padding: 5px;
@@ -158,7 +168,8 @@ table {
     padding: 5px;
 }
 
-td, th {
+td,
+th {
     padding: 5px;
     border: solid @white 1px;
 }
@@ -440,7 +451,8 @@ form {
         width: 21.4em;
     }
 
-    #saturdayTable, #sundayTable {
+    #saturdayTable,
+    #sundayTable {
         width: 70%;
     }
 

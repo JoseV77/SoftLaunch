@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
   background-color: #000000;
 }
+#wrapper {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 h1,
 h2,
 h3,
@@ -91,6 +95,9 @@ p {
   max-width: 22em;
   max-height: 13em;
   margin-top: 1em;
+}
+.days {
+  text-align: center;
 }
 table {
   table-layout: fixed;
