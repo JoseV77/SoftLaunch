@@ -27,7 +27,7 @@ if ((isset($_POST['fullname'])) && (empty ($_POST['honeypot']))) {
       $gender = $_POST['genders'];
       $saturdayevent = $_POST['eventsSaturday'];
       $sundayevent = $_POST['eventsSunday'];
-      $accommondations = $_POST['accommondations'];
+      $accommodations = $_POST['accommodations'];
 
     try {
       $sql = 'INSERT INTO registrations SET
@@ -51,7 +51,7 @@ if ((isset($_POST['fullname'])) && (empty ($_POST['honeypot']))) {
       $s->bindValue(':gender', $gender);
       $s->bindValue(':saturdayevent', $saturdayevent);
       $s->bindValue(':sundayevent', $sundayevent);
-      $s->bindValue(':accommodations', $accommondations);
+      $s->bindValue(':accommodations', $accommodations);
       $s->execute();
     } catch (PDOException $e) {
       $error = 'Error fetching content: ' . $e->getMessage();

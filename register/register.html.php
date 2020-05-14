@@ -69,9 +69,9 @@
                         </select><br><br>
 
                         <label for="eventsSunday"><strong>Sunday</strong> Events Registering For:</label>
-                        <select id="eventsSunday" name="eventsSaturday">
+                        <select id="eventsSunday" name="eventsSunday">
                             <option value="spring">Sprint Triathlon 8:00 AM</option>
-                            <option value="try">Try-a-Tri 8:20 AM</option>
+                            <option value="try-a-tri">Try-a-Tri 8:20 AM</option>
                             <option value="splash">Splash n Dash 12:00 PM</option>
                         </select><br><br>
 
