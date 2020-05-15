@@ -26,8 +26,7 @@
                 <h2>Ask Your Questions Here!</h2>
 
                 <form method="post" action=" ">
-                    <input type="text" name="honeypot" id="honeypot" value=""
-                        alt="if you fill this field out then your email will not be sent" />
+                    <input type="text" name="honeypot" id="honeypot" value=""/>
                         
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required><br><br>
@@ -38,7 +37,7 @@
                     <label for="question">Question or Comment:</label><br>
                     <textarea rows="10" cols="40" name="question" id="question" required></textarea><br><br>
 
-                    <label for="areYou">Are you a:</label><br>
+                    <label for="athlete">Are you a:</label><br>
                     <input type="radio" id="athlete" name="person" value="athlete">
                     <label for="athlete">Athlete</label><br>
                     <input type="radio" id="volunteer" name="person" value="volunteer">
