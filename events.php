@@ -84,6 +84,7 @@
                 <li>If you are using a personal music devise with two earbuds, you will be immediately disqualified. Trust us, we don't want to have to enforce a disqualification but in order to assure the safety of all athletes, this is a very important rule.</li>
                 <li>We also request that if you chose to use a personal music device that you keep the volume to a minimum to assure all instructions can be heard.</li>
             </ul>
+            <p><strong>Do I need to wear a wetsuit?</strong> No, you do not need to wear a wetsuit. Many will not wear a wetsuit while others will choose to wear a wetsuit because of the buoyancy and warmth factor. <br><br><strong>Do I have to use a road or racing bike?</strong> No. We welcome any type of bike as long as it is functioning properly with brakes and endcaps at the end of your handlebars.</p>
 
             <h2>Packet Pick Up</h2>
             <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours:
