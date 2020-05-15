@@ -10,7 +10,7 @@
         <a href="<?php echo BASE_URL; ?>index.php">Home</a>
         <a href="<?php echo BASE_URL; ?>events.php">Events</a>
         <a href="<?php echo BASE_URL; ?>register">Register</a>
-        <a href="<?php echo BASE_URL; ?>contact.php">Contact</a>
+        <a href="<?php echo BASE_URL; ?>contact">Contact</a>
     </nav>
 
     <nav id="mobile-nav">
