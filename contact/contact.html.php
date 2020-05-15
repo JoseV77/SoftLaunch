@@ -26,8 +26,8 @@
                 <h2>Ask Your Questions Here!</h2>
 
                 <form method="post" action=" ">
-                    <input type="text" name="honeypot" id="honeypot" value=""/>
-                        
+                    <input type="text" name="honeypot" id="honeypot" value="" />
+
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required><br><br>
 

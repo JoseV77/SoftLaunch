@@ -22,9 +22,10 @@
             <h1>Thank you!</h1>
             <h3>Your Question or Comment Was Succesfully Sent!:</h3>
             <p><strong>Email:</strong> <?php echo htmlspecialchars($myEmail, ENT_QUOTES, 'UTF-8'); ?><br><br>
-            <strong>Name:</strong> <?php echo htmlspecialchars($myName, ENT_QUOTES, 'UTF-8'); ?><br><br>
-            <strong>I am a:</strong> <?php echo htmlspecialchars($person, ENT_QUOTES, 'UTF-8'); ?><br><br>
-            <strong>Question or Comment:</strong> <?php echo htmlspecialchars($myQuestion, ENT_QUOTES, 'UTF-8'); ?><br>
+                <strong>Name:</strong> <?php echo htmlspecialchars($myName, ENT_QUOTES, 'UTF-8'); ?><br><br>
+                <strong>I am a:</strong> <?php echo htmlspecialchars($person, ENT_QUOTES, 'UTF-8'); ?><br><br>
+                <strong>Question or Comment:</strong>
+                <?php echo htmlspecialchars($myQuestion, ENT_QUOTES, 'UTF-8'); ?><br>
             </p>
 
         </div>

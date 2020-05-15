@@ -6,10 +6,12 @@ body {
   overflow-x: hidden;
   background-color: #000000;
 }
+
 #wrapper {
   padding-left: 1em;
   padding-right: 1em;
 }
+
 h1,
 h2,
 h3,
@@ -23,12 +25,14 @@ table,
 p {
   color: #FFFFFF;
 }
+
 h1,
 h2,
 h3,
 nav {
   font-family: 'Anton', sans-serif;
 }
+
 form,
 li,
 table,
@@ -36,23 +40,28 @@ label,
 p {
   font-family: 'Roboto', sans-serif;
 }
+
 #desktop-nav {
   display: none;
 }
+
 #mobile-nav {
   overflow: hidden;
   position: relative;
 }
+
 #mobile-nav .logo {
   object-fit: cover;
   width: 175px;
   height: 63px;
 }
+
 #mobile-nav #links {
   display: none;
   text-decoration: none;
   padding-bottom: 0.5em;
 }
+
 #mobile-nav a {
   text-decoration: none;
   display: block;
@@ -60,9 +69,11 @@ p {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+
 #mobileText {
   color: #FF0000;
 }
+
 .fa-bars {
   color: #FF0000;
   float: right;
@@ -71,13 +82,16 @@ p {
   right: 0.2em;
   top: 0.1em;
 }
+
 .fa-bars:active {
   opacity: 0.5;
 }
+
 #text {
   padding-left: 1em;
   padding-right: 1em;
 }
+
 #socialmedia-feed,
 #weather-feed,
 #text {
@@ -85,19 +99,23 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
 .fb-page {
   width: 25em;
   height: 10em;
   margin-left: 0.5em;
 }
+
 #weather-feed {
   max-width: 22em;
   max-height: 13em;
   margin-top: 1em;
 }
+
 .days {
   text-align: center;
 }
+
 table {
   table-layout: fixed;
   margin: auto;
@@ -105,43 +123,53 @@ table {
   width: 90%;
   border-collapse: collapse;
 }
+
 #saturdayTable,
 #sundayTable {
   background: #FFFFFF;
   color: #000000;
   border: solid #000000 2px;
 }
+
 #saturdayTable th {
   border: solid #000000 1px;
   padding: 5px;
 }
+
 #saturdayTable td {
   border: solid #000000 1px;
   padding: 5px;
 }
+
 #sundayTable th {
   border: solid #000000 1px;
   padding: 5px;
 }
+
 #sundayTable td {
   border: solid #000000 1px;
   padding: 5px;
 }
+
 td,
 th {
   padding: 5px;
   border: solid #FFFFFF 1px;
 }
+
 td {
   text-align: center;
 }
+
 #honeypot {
   display: none;
 }
+
 footer {
   margin-top: 1em;
   border-top: solid #FF0000 2px;
 }
+
 footer p {
   font-style: italic;
   font-size: 0.7em;
@@ -149,6 +177,7 @@ footer p {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+
 /* Mobile Slideshow */
 #slideshow {
   max-width: 22em;
@@ -158,6 +187,7 @@ footer p {
   background-color: #000000;
   border: solid #FFFFFF 1px;
 }
+
 #slideshow img {
   max-width: 22em;
   max-height: 13em;
@@ -166,12 +196,15 @@ footer p {
   margin-right: auto;
   object-fit: cover;
 }
+
 #front {
   display: inline;
 }
+
 .mySlides {
   display: none;
 }
+
 .number {
   color: #FFFFFF;
   font-size: 12px;
@@ -179,6 +212,7 @@ footer p {
   position: absolute;
   top: 0;
 }
+
 .prev,
 .next {
   cursor: pointer;
@@ -193,39 +227,48 @@ footer p {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+
 .prev:active,
 .next:active {
   background-color: #cfcfcf;
 }
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 @keyframes fade {
   from {
     opacity: 0.4;
   }
+
   to {
     opacity: 1;
   }
 }
+
 @keyframes fade {
   from {
     opacity: 0.4;
   }
+
   to {
     opacity: 1;
   }
 }
+
 /* Form */
 #formBox {
   display: block;
   text-align: center;
 }
+
 form {
   display: inline-block;
   margin-left: auto;
@@ -233,6 +276,7 @@ form {
   text-align: left;
   font-size: 1.5em;
 }
+
 #submit {
   background: #000000;
   border: solid #FF0000 2px;
@@ -240,61 +284,75 @@ form {
   border-radius: 25%;
   padding: 0.5em;
 }
+
 #submit:active {
   background: #FF0000;
   color: #000000;
 }
+
 /* Tablet Stylesheets */
 @media only screen and (min-width: 481px) {
   #mobile-nav {
     margin-left: 1em;
   }
+
   .fa-bars {
     margin-top: 0.1em;
     margin-right: 0.1em;
   }
+
   #slideshow {
     max-width: 45em;
     max-height: 25em;
   }
+
   #slideshow img {
     max-width: 45em;
     max-height: 25em;
   }
+
   #socialmedia-feed {
     position: relative;
     left: 1em;
   }
+
   #weather-feed {
     position: relative;
     left: 12.5em;
     bottom: 27em;
   }
+
   .fb-page {
     width: 25em;
     height: 10em;
   }
+
   #weather-feed,
   .weatherwidget-io {
     width: 20em;
     height: 20em;
   }
 }
+
 /* Desktop Stylesheets */
 @media only screen and (min-width: 1025px) {
+
   html,
   body,
   main {
     padding: 0;
     margin: 0;
   }
+
   .days {
     text-align: center;
   }
+
   #wrapper {
     padding-left: 5em;
     padding-right: 5em;
   }
+
   #desktop-nav {
     display: flex;
     display: -webkit-flex;
@@ -307,41 +365,49 @@ form {
     font-size: 1.3em;
     border-bottom: solid #FF0000 2px;
   }
+
   #desktop-nav .logo {
     margin-right: auto;
     width: 150px;
     height: 150px;
     object-fit: cover;
   }
+
   #desktop-nav a {
     display: inline-block;
     padding: 0px 20px;
     text-decoration: none;
   }
+
   .icon,
   .fa-bars,
   #mobile-nav {
     display: none;
   }
+
   #grid-items {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
     grid-gap: 15em;
     padding: 1em;
   }
+
   #register-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
     padding: 1em;
   }
+
   #slideshow {
     max-width: 45em;
     max-height: 30em;
   }
+
   #slideshow img {
     max-width: 45em;
     max-height: 30em;
   }
+
   #socialmedia-feed,
   #weather-feed,
   #text {
@@ -350,28 +416,36 @@ form {
     margin-right: auto;
     margin-left: auto;
   }
+
   #socialmedia-feed {
     margin-left: 2em;
   }
+
   #weather-feed {
     margin-left: 3.5em;
   }
+
   .weatherwidget-io {
     width: 21.4em;
   }
+
   #saturdayTable,
   #sundayTable {
     width: 70%;
   }
+
   #detailsList {
     padding-left: 1em;
   }
+
   li {
     margin: 1em 0;
   }
+
   #mobileText {
     display: none;
   }
+
   footer {
     margin-top: 3em;
   }
