@@ -1,7 +1,7 @@
 <?php
 
 $msg = '';
-if ((isset($_POST['myName'])) && (empty ($_POST['honeypot']))) {
+if ((isset($_POST['name'])) && (empty ($_POST['honeypot']))) {
     $myName = $_POST['name'];
     $myEmail = $_POST['email'];
     $myQuestion = $_POST['question'];
@@ -20,11 +20,12 @@ if ((isset($_POST['myName'])) && (empty ($_POST['honeypot']))) {
     $mail->setFrom('phpmailer@josevaleriostudent.webhostingforstudents.com', 'Jose Valerio');
     $mail->addAddress('jose.valerio@pcc.edu', 'Jose Valerio');
     $mail->addReplyTo($myEmail, $myName);
-        $mail->Subject = 'Ace in the Hole contact form';
+        $mail->Subject = 'Ace in the Hole Contact Form';
         $mail->isHTML(true);
         $mail->Body = <<<EOT
 Email: $myEmail<br>
 Name: $myName<br>
+I Am a: $person<br>
 Question: $myQuestion
 EOT;
 
