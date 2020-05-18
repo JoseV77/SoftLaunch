@@ -44,7 +44,7 @@
                             <option value="female">Female</option>
                             <option value="nonBinary">Non-binary</option>
                             <option value="other">Other</option>
-                        </select><br><br>
+                        </select><br>
 
                         <label for="role">Choose your role:</label>
                         <select id="role" name="roles">
