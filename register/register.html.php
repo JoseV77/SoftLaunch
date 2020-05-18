@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description"
-        content="Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds">
+    <meta name="description" content="Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
@@ -12,7 +11,6 @@
     <script src="scripts.js"></script>
     <title>Ace in the Hole Multisports Events</title>
 </head>
-
 <body>
 
     <div id="fb-root"></div>
@@ -38,14 +36,6 @@
                         <label for="age">Age:</label>
                         <input type="number" id="age" name="age" required><br>
 
-                        <label for="genders">Gender:</label>
-                        <select id="genders" name="genders">
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            <option value="nonBinary">Non-binary</option>
-                            <option value="other">Other</option>
-                        </select><br>
-
                         <label for="role">Choose your role:</label>
                         <select id="role" name="roles">
                             <option value="athlete">Athlete</option>
@@ -61,6 +51,15 @@
                         <label for="ephone">Enter your emergency contacts phone:</label>
                         <input type="tel" id="ephone" name="ephone" placeholder="503-333-333"
                             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+                        <label for="genders">Gender:</label>
+                        <select id="genders" name="genders">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="nonBinary">Non-binary</option>
+                            <option value="other">Other</option>
+                        </select><br><br>
+
 
                         <label for="eventsSaturday"><strong>Saturday</strong> Events Registering For:</label>
                         <select id="eventsSaturday" name="eventsSaturday">
@@ -89,33 +88,33 @@
                     <h2>Registration Fees</h2>
                     <table>
                         <tbody>
-                            <tr>
-                                <th>Long Course</th>
-                                <th>Olympic</th>
-                                <th>10K</th>
-                                <th>Half Marathon</th>
-                                <th>Sprint</th>
-                                <th>Try-a-Tri</th>
-                                <th>Splash n' Dash(kids)</th>
-                            </tr>
-                            <tr>
-                                <td>$240</td>
-                                <td>$110</td>
-                                <td>$50</td>
-                                <td>$75</td>
-                                <td>$90</td>
-                                <td>$65</td>
-                                <td>$25 or Free</td>
-                            </tr>
-                            <tr>
-                                <td>7:00 AM</td>
-                                <td>7:30 AM</td>
-                                <td>7:15 AM</td>
-                                <td>7:15 AM</td>
-                                <td>8:00 AM</td>
-                                <td>8:20 AM</td>
-                                <td>12:00 PM</td>
-                            </tr>
+                        <tr>
+                            <th>Long Course</th>
+                            <th>Olympic</th>
+                            <th>10K</th>
+                            <th>Half Marathon</th>
+                            <th>Sprint</th>
+                            <th>Try-a-Tri</th>
+                            <th>Splash n' Dash(kids)</th>
+                        </tr>
+                        <tr>
+                            <td>$240</td>
+                            <td>$110</td>
+                            <td>$50</td>
+                            <td>$75</td>
+                            <td>$90</td>
+                            <td>$65</td>
+                            <td>$25 or Free</td>
+                        </tr>
+                        <tr>
+                            <td>7:00 AM</td>
+                            <td>7:30 AM</td>
+                            <td>7:15 AM</td>
+                            <td>7:15 AM</td>
+                            <td>8:00 AM</td>
+                            <td>8:20 AM</td>
+                            <td>12:00 PM</td>
+                        </tr>
                         </tbody>
                     </table>
 

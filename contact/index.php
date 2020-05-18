@@ -1,5 +1,7 @@
 <?php
 
+use PHPMailer\PHPMailer\PHPMailer;
+
 $msg = '';
 if ((isset($_POST['name'])) && (empty ($_POST['honeypot']))) {
     $myName = $_POST['name'];
@@ -8,7 +10,9 @@ if ((isset($_POST['name'])) && (empty ($_POST['honeypot']))) {
     $person = $_POST["person"];
     date_default_timezone_set('Etc/UTC');
 
-    require '../PHPMailer/PHPMailerAutoload.php';
+    require_once "PHPMailer/src/PHPMailer.php";
+    require_once "PHPMailer/src/SMTP.php";
+    require_once "PHPMailer/src/Exception.php";
 
     $mail = new PHPMailer;
     $mail->isSMTP();
