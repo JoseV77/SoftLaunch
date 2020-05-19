@@ -16,7 +16,7 @@ if ((isset($_POST['name'])) && (empty ($_POST['honeypot']))) {
     $mail->Port = 587;
     $mail->SMTPAuth = true;
     $mail->Username = "phpmailer@josevaleriostudent.webhostingforstudents.com";
-    $mail->Password = "myPassworD7";
+    $mail->Password = "myP4ssworD74";
     $mail->setFrom('phpmailer@josevaleriostudent.webhostingforstudents.com', 'Jose Valerio');
     $mail->addAddress('jose.valerio@pcc.edu', 'Jose Valerio');
     $mail->addReplyTo($myEmail, $myName);
