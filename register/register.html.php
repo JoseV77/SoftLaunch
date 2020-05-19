@@ -49,8 +49,7 @@
                         <input type="text" id="ename" name="ename" required><br>
 
                         <label for="ephone">Enter your emergency contacts phone:</label>
-                        <input type="tel" id="ephone" name="ephone" placeholder="503-333-333"
-                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                        <input type="tel" id="ephone" name="ephone" required><br><br>
 
                         <label for="genders">Gender:</label>
                         <select id="genders" name="genders">
