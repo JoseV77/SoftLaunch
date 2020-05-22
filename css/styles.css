@@ -1,15 +1,17 @@
+/* body properties */
 /* Colors */
 /* Sldeshow Sizes */
 /* Fonts */
 /* Submit Button Properties */
 /* --- Mobile Stylesheets --- */
 body {
+  padding: 0;
+  margin: 0;
   overflow-x: hidden;
   background-color: #000000;
 }
 #wrapper {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 1em;
 }
 h1,
 h2,
@@ -36,6 +38,9 @@ table,
 label,
 p {
   font-family: 'Roboto', sans-serif;
+}
+header {
+  padding: 0.5em;
 }
 #desktop-nav {
   display: none;
@@ -288,6 +293,9 @@ form {
   main {
     padding: 0;
     margin: 0;
+  }
+  header {
+    padding: 0;
   }
   .days {
     text-align: center;

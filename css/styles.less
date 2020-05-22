@@ -2,13 +2,13 @@
 
 /* --- Mobile Stylesheets --- */
 body {
+    .body_properties(@body-padding, @body-margin);
     overflow-x: hidden;
     background-color: @black;
 }
 
 #wrapper {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 1em;
 }
 
 h1,
@@ -38,6 +38,10 @@ table,
 label,
 p {
     font-family: @roboto;
+}
+
+header {
+    padding: 0.5em;
 }
 
 #desktop-nav {
@@ -343,8 +347,11 @@ form {
     html,
     body,
     main {
+        .body_properties(@body-padding, @body-margin);
+    }
+
+    header {
         padding: 0;
-        margin: 0;
     }
 
     .days {
