@@ -59,7 +59,6 @@
                             <option value="other">Other</option>
                         </select><br><br>
 
-
                         <label for="eventsSaturday"><strong>Saturday</strong> Events Registering For:</label>
                         <select id="eventsSaturday" name="eventsSaturday">
                             <option value="long">Long Course Triathlon 7:00 AM</option>
@@ -88,13 +87,22 @@
                     <table>
                         <tbody>
                         <tr>
-                            <th>Long Course</th>
-                            <th>Olympic</th>
-                            <th>10K</th>
-                            <th>Half Marathon</th>
-                            <th>Sprint</th>
-                            <th>Try-a-Tri</th>
-                            <th>Splash n' Dash(kids)</th>
+                        <th>Saturday</th>
+                        <th>Saturday</th>
+                        <th>Saturday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                        <th>Sunday</th>
+                        <th>Sunday</th>
+                        </tr>
+                        <tr>
+                            <td>Long Course Triathlon</td>
+                            <td>Olympic Triathlon</td>
+                            <td>10K</td>
+                            <td>Half Marathon</td>
+                            <td>Sprint Triathlon</td>
+                            <td>Try-a-Tri</td>
+                            <td>Splash n' Dash(kids)</td>
                         </tr>
                         <tr>
                             <td>$240</td>

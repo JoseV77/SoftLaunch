@@ -17,6 +17,19 @@
 @anton: 'Anton', sans-serif;
 @roboto: 'Roboto', sans-serif;
 
+/* Submit Button Properties */
+@submit-border: solid @red 2px;
+@radius: 25%;
+@border-padding: 0.5em;
+
+.submit_properties(@black, @submit-border, @radius, @border-padding){
+    background: @black;
+    border: @submit-border;
+    color: @red;
+    border-radius: @radius;
+    padding: 0.5em;
+}
+
 /* --- Mobile Stylesheets --- */
 body {
     overflow-x: hidden;
@@ -298,11 +311,7 @@ form {
 }
 
 #submit {
-    background: @black;
-    border: solid @red 2px;
-    color: @red;
-    border-radius: 25%;
-    padding: 0.5em;
+    .submit_properties(@black, @submit-border, @radius, @border-padding);
 }
 
 #submit:active {
@@ -464,6 +473,21 @@ form {
 
     li {
         margin: 1em 0;
+    }
+
+    #submit-contact {
+        .submit_properties(@black, @submit-border, @radius, @border-padding);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #faq-heading {
+        text-align: center;
+    }
+
+    .questions {
+        text-decoration: underline;
     }
 
     #mobileText {

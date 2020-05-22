@@ -1,6 +1,7 @@
 /* Colors */
 /* Sldeshow Sizes */
 /* Fonts */
+/* Submit Button Properties */
 /* --- Mobile Stylesheets --- */
 body {
   overflow-x: hidden;
@@ -368,6 +369,22 @@ form {
   }
   li {
     margin: 1em 0;
+  }
+  #submit-contact {
+    background: #000000;
+    border: solid #FF0000 2px;
+    color: #FF0000;
+    border-radius: 25%;
+    padding: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #faq-heading {
+    text-align: center;
+  }
+  .questions {
+    text-decoration: underline;
   }
   #mobileText {
     display: none;
