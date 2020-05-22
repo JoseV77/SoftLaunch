@@ -48,6 +48,7 @@
                 </form>
 
             </div>
+            <br><br>
 
             <h2 id="faq-heading">FAQ's</h2>
             <p id="faq-small"><strong class="questions">What are the Rules?</strong> We currently adhere to the USAT Rules for Triathlon &
