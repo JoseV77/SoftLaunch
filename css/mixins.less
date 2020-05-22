@@ -1,0 +1,31 @@
+/* Colors */
+@red: #FF0000;
+@white: #FFFFFF;
+@black: #000000;
+
+/* Sldeshow Sizes */
+@maxwidth-mobile: 22em;
+@max-height-mobile: 13em;
+@maxheight-tablet: 25em;
+@maxwidth-tablet: 45em;
+@maxheight-desktop: 30em;
+@maxwidth-desktop: 45em;
+
+@text-padding: 1em;
+
+/* Fonts */
+@anton: 'Anton', sans-serif;
+@roboto: 'Roboto', sans-serif;
+
+/* Submit Button Properties */
+@submit-border: solid @red 2px;
+@radius: 25%;
+@border-padding: 0.5em;
+
+.submit_properties(@black, @submit-border, @radius, @border-padding){
+    background: @black;
+    border: @submit-border;
+    color: @red;
+    border-radius: @radius;
+    padding: 0.5em;
+}
