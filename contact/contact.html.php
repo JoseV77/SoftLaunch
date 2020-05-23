@@ -63,7 +63,7 @@
                 risks and will result in immediate disqualification. <br><br><strong class="questions">Can I use a
                     personal music
                     device
-                    while running?</strong class="questions"> During any running segments, we prefer for athletes to NOT
+                    while running?</strong> During any running segments, we prefer for athletes to NOT
                 use music
                 devices
                 to maximize safety, assure a fair competitive environment and assure athletes can hear all course
