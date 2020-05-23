@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds">
+    <meta name="description"
+        content="Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
@@ -11,6 +12,7 @@
     <script src="scripts.js"></script>
     <title>Ace in the Hole Multisports Events</title>
 </head>
+
 <body>
 
     <div id="fb-root"></div>
@@ -86,42 +88,42 @@
                     <h2>Registration Fees</h2>
                     <table>
                         <tbody>
-                        <tr>
-                        <th>Saturday</th>
-                        <th>Saturday</th>
-                        <th>Saturday</th>
-                        <th>Saturday</th>
-                        <th>Sunday</th>
-                        <th>Sunday</th>
-                        <th>Sunday</th>
-                        </tr>
-                        <tr>
-                            <td>Long Course Triathlon</td>
-                            <td>Olympic Triathlon</td>
-                            <td>10K</td>
-                            <td>Half Marathon</td>
-                            <td>Sprint Triathlon</td>
-                            <td>Try-a-Tri</td>
-                            <td>Splash n' Dash(kids)</td>
-                        </tr>
-                        <tr>
-                            <td>$240</td>
-                            <td>$110</td>
-                            <td>$50</td>
-                            <td>$75</td>
-                            <td>$90</td>
-                            <td>$65</td>
-                            <td>$25 or Free</td>
-                        </tr>
-                        <tr>
-                            <td>7:00 AM</td>
-                            <td>7:30 AM</td>
-                            <td>7:15 AM</td>
-                            <td>7:15 AM</td>
-                            <td>8:00 AM</td>
-                            <td>8:20 AM</td>
-                            <td>12:00 PM</td>
-                        </tr>
+                            <tr>
+                                <th>Saturday</th>
+                                <th>Saturday</th>
+                                <th>Saturday</th>
+                                <th>Saturday</th>
+                                <th>Sunday</th>
+                                <th>Sunday</th>
+                                <th>Sunday</th>
+                            </tr>
+                            <tr>
+                                <td>Long Course Triathlon</td>
+                                <td>Olympic Triathlon</td>
+                                <td>10K</td>
+                                <td>Half Marathon</td>
+                                <td>Sprint Triathlon</td>
+                                <td>Try-a-Tri</td>
+                                <td>Splash n' Dash(kids)</td>
+                            </tr>
+                            <tr>
+                                <td>$240</td>
+                                <td>$110</td>
+                                <td>$50</td>
+                                <td>$75</td>
+                                <td>$90</td>
+                                <td>$65</td>
+                                <td>$25 or Free</td>
+                            </tr>
+                            <tr>
+                                <td>7:00 AM</td>
+                                <td>7:30 AM</td>
+                                <td>7:15 AM</td>
+                                <td>7:15 AM</td>
+                                <td>8:00 AM</td>
+                                <td>8:20 AM</td>
+                                <td>12:00 PM</td>
+                            </tr>
                         </tbody>
                     </table>
 
