@@ -38,11 +38,20 @@
                         <label for="age">Age:</label>
                         <input type="number" id="age" name="age" required><br>
 
+                        <label for="genders">Gender:</label>
+                        <select id="genders" name="genders">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="nonBinary">Non-binary</option>
+                            <option value="other">Other</option>
+                        </select><br>
+
                         <label for="role">Choose your role:</label>
                         <select id="role" name="roles">
                             <option value="athlete">Athlete</option>
                             <option value="volunteer">Volunteer</option>
                         </select><br>
+
 
                         <label for="email">Email:</label>
                         <input type="text" id="email" name="email" required><br><br>
@@ -52,14 +61,6 @@
 
                         <label for="ephone">Enter your emergency contacts phone:</label>
                         <input type="tel" id="ephone" name="ephone" required><br><br>
-
-                        <label for="genders">Gender:</label>
-                        <select id="genders" name="genders">
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            <option value="nonBinary">Non-binary</option>
-                            <option value="other">Other</option>
-                        </select><br><br>
 
                         <label for="eventsSaturday"><strong>Saturday</strong> Events Registering For:</label>
                         <select id="eventsSaturday" name="eventsSaturday">
