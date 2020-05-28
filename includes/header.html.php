@@ -6,7 +6,9 @@
     </a>
 
     <nav id="desktop-nav">
-        <img src="<?php echo BASE_URL; ?>images/aceintheholeLogo.png" class="logo" alt="logo">
+        <a href="<?php echo BASE_URL; ?>index.php" class="logo">
+            <img src="<?php echo BASE_URL; ?>images/aceintheholeLogo.png" class="logo" alt="logo">
+        </a>
         <a href="<?php echo BASE_URL; ?>index.php">Home</a>
         <a href="<?php echo BASE_URL; ?>events.php">Events</a>
         <a href="<?php echo BASE_URL; ?>register">Register</a>
@@ -14,7 +16,9 @@
     </nav>
 
     <nav id="mobile-nav">
-        <img src="<?php echo BASE_URL; ?>images/logo2.jpg" class="logo" alt="ace">
+        <a href="<?php echo BASE_URL; ?>index.php" class="logo">
+            <img src="<?php echo BASE_URL; ?>images/logo2.jpg" alt="ace" class="logo">
+        </a>
         <div id="links">
             <a href="<?php echo BASE_URL; ?>index.php">Home</a>
             <a href="<?php echo BASE_URL; ?>events.php">Events</a>
