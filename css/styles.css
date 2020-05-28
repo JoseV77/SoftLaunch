@@ -39,6 +39,12 @@ label,
 p {
   font-family: 'Roboto', sans-serif;
 }
+p,
+ul,
+li {
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
 header {
   padding: 0.5em;
 }

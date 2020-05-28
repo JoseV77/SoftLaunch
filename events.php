@@ -11,8 +11,8 @@
 
         <div id="wrapper">
 
-            <h2>Event Information</h2>
-            <h3 class="days">Saturday Events</h3>
+            <h1>Event Information</h1>
+            <h2 class="days">Saturday Events</h2>
             <table id="saturdayTable">
                 <tbody>
                     <tr>
@@ -39,7 +39,7 @@
                 </tbody>
             </table>
 
-            <h3 class="days">Sunday Events</h3>
+            <h2 class="days">Sunday Events</h2>
             <table id="sundayTable">
                 <tbody>
                     <tr>
