@@ -26,8 +26,12 @@
                         <p>Welcome to Ace in the Hole Multisport Events! Ace in the Hole Multisport Events is proud to
                             offer running and triathlon events to athletes of all shapes and sizes, national origins,
                             gender identifications and cultural backgrounds. We offer Events for Every Body.</p>
+
                         <p><span id="mobileText">To register for an event, please visit the site on a desktop or
                                 laptop.</span></p>
+
+                        <p><span id="events-dates">(The events will be held on June 20th and 21st, 2020.)</span></p>
+
                         <p>The Annual Ace in the Hole Multisport Weekend is a legendary event in the Oregon triathlon
                             and running community. It has become a traditional destination race for athletes from across
                             the nation. There is something for every level of athletic ability. The weekend includes a

@@ -90,6 +90,9 @@ header {
   padding-left: 1em;
   padding-right: 1em;
 }
+#events-dates {
+  color: #FF0000;
+}
 #socialmedia-feed,
 #weather-feed,
 #text {

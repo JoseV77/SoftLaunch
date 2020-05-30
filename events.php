@@ -12,7 +12,7 @@
         <div id="wrapper">
 
             <h1>Event Information</h1>
-            <h2 class="days">Saturday Events</h2>
+            <h2 class="days">Saturday Events (June 20th)</h2>
             <table id="saturdayTable">
                 <tbody>
                     <tr>
@@ -39,7 +39,7 @@
                 </tbody>
             </table>
 
-            <h2 class="days">Sunday Events</h2>
+            <h2 class="days">Sunday Events (June 21st)</h2>
             <table id="sundayTable">
                 <tbody>
                     <tr>
