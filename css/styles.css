@@ -269,11 +269,11 @@ form {
     margin-right: 0.1em;
   }
   #slideshow {
-    width: 40em;
+    width: 45em;
     height: 25em;
   }
   #slideshow img {
-    width: 40em;
+    width: 45em;
     height: 25em;
   }
   #socialmedia-feed {
@@ -353,12 +353,12 @@ form {
     padding: 1em;
   }
   #slideshow {
-    max-width: 40em;
-    max-height: 30em;
+    width: 45em;
+    height: 30em;
   }
   #slideshow img {
-    max-width: 40em;
-    max-height: 30em;
+    width: 45em;
+    height: 30em;
   }
   #socialmedia-feed,
   #weather-feed,
