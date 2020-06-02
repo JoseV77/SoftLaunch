@@ -72,9 +72,6 @@ header {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
-#mobileText {
-  color: #FF0000;
-}
 .fa-bars {
   color: #FF0000;
   float: right;
@@ -415,9 +412,6 @@ form {
   }
   .questions {
     text-decoration: underline;
-  }
-  #mobileText {
-    display: none;
   }
   footer {
     margin-top: 3em;
