@@ -55,6 +55,10 @@
                         </div>
                     </div>
 
+                    <div id="twitter-feed">
+                    <a class="twitter-timeline" data-width="340" data-height="500" href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by pcccas222</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                    </div>
+
 
                     <div id="weather-feed">
                         <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/?unit=us"
