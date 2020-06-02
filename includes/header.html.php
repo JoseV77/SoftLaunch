@@ -7,7 +7,7 @@
 
     <nav id="desktop-nav">
         <a href="<?php echo BASE_URL; ?>index.php" class="logo">
-            <img src="<?php echo BASE_URL; ?>images/aceintheholeLogo.png" class="logo" alt="logo">
+            <img src="<?php echo BASE_URL; ?>images/logo2.jpg" id="desktop-logo" alt="logo">
         </a>
         <a href="<?php echo BASE_URL; ?>index.php">Home</a>
         <a href="<?php echo BASE_URL; ?>events.php">Events</a>
