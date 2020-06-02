@@ -4,7 +4,7 @@
 
     <div class="mySlides fade" id="front">
         <div class="number">1 / <?php echo $pics; ?></div>
-        <img src="images/ace1.jpg" alt="swimming_triathlon">
+        <img src="images/ace1.jpg" alt="swimming triathlon">
     </div>
 
     <div class="mySlides fade">
@@ -14,62 +14,62 @@
 
     <div class="mySlides fade">
         <div class="number">3 / <?php echo $pics; ?></div>
-        <img src="images/ace3.jpg" alt="long_course_bike">
+        <img src="images/ace3.jpg" alt="long course bike">
     </div>
 
     <div class="mySlides fade">
         <div class="number">4 / <?php echo $pics; ?></div>
-        <img src="images/ace4.jpg" alt="beach_triathlon">
+        <img src="images/ace4.jpg" alt="beach triathlon">
     </div>
 
     <div class="mySlides fade">
         <div class="number">5 / <?php echo $pics; ?></div>
-        <img src="images/ace5.jpg" alt="bike_triathlon">
+        <img src="images/ace5.jpg" alt="bike triathlon">
     </div>
 
     <div class="mySlides fade">
         <div class="number">6 / <?php echo $pics; ?></div>
-        <img src="images/ace6.jpg" alt="beach_event">
+        <img src="images/ace6.jpg" alt="beach event">
     </div>
 
     <div class="mySlides fade">
         <div class="number">7 / <?php echo $pics; ?></div>
-        <img src="images/ace7.jpg" alt="traithlon_marathon">
+        <img src="images/ace7.jpg" alt="triathlon marathon">
     </div>
 
     <div class="mySlides fade">
         <div class="number">8 / <?php echo $pics; ?></div>
-        <img src="images/ace8.jpg" alt="running_triathlon">
+        <img src="images/ace8.jpg" alt="running triathlon">
     </div>
 
     <div class="mySlides fade">
         <div class="number">9 / <?php echo $pics; ?></div>
-        <img src="images/ace9.jpg" alt="bike_race">
+        <img src="images/ace9.jpg" alt="bike race">
     </div>
 
     <div class="mySlides fade">
         <div class="number">10 / <?php echo $pics; ?></div>
-        <img src="images/ace10.jpg" alt="placeholder">
+        <img src="images/ace10.jpg" alt="marathon race win">
     </div>
 
     <div class="mySlides fade">
         <div class="number">11 / <?php echo $pics; ?></div>
-        <img src="images/ace11.jpg" alt="running_race">
+        <img src="images/ace11.jpg" alt="running race">
     </div>
 
     <div class="mySlides fade">
         <div class="number">12 / <?php echo $pics; ?></div>
-        <img src="images/ace12.jpg" alt="placeholder">
+        <img src="images/ace12.jpg" alt="bike racing">
     </div>
 
     <div class="mySlides fade">
         <div class="number">13 / <?php echo $pics; ?></div>
-        <img src="images/ace13.jpg" alt="triathlon">
+        <img src="images/ace13.jpg" alt="summer marathon">
     </div>
 
     <div class="mySlides fade">
         <div class="number">14 / <?php echo $pics; ?></div>
-        <img src="images/ace14.jpg" alt="bikes">
+        <img src="images/ace14.jpg" alt="olympic race">
     </div>
 
     <div class="mySlides fade">
@@ -79,17 +79,17 @@
 
     <div class="mySlides fade">
         <div class="number">16 / <?php echo $pics; ?></div>
-        <img src="images/ace16.jpg" alt="olympic">
+        <img src="images/ace16.jpg" alt="olympic style">
     </div>
 
     <div class="mySlides fade">
         <div class="number">17 / <?php echo $pics; ?></div>
-        <img src="images/ace17.jpg" alt="10k">
+        <img src="images/ace17.jpg" alt="10k race">
     </div>
 
     <div class="mySlides fade">
         <div class="number">18 / <?php echo $pics; ?></div>
-        <img src="images/ace18.jpg" alt="sprint_triathlon">
+        <img src="images/ace18.jpg" alt="sprint triathlon">
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
