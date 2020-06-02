@@ -397,6 +397,9 @@ form {
   li {
     margin: 1em 0;
   }
+  #fees {
+    display: block;
+  }
   #submit-contact {
     background: #000000;
     border: solid #FF0000 2px;
