@@ -72,6 +72,11 @@ header {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+#quick-links a {
+  text-decoration: underline;
+  margin-right: 0.5em;
+  font-size: 1.1em;
+}
 .fa-bars {
   color: #FF0000;
   float: right;
@@ -87,7 +92,7 @@ header {
   padding-left: 1em;
   padding-right: 1em;
 }
-#events-dates {
+.important {
   color: #FF0000;
 }
 #socialmedia-feed,
@@ -429,7 +434,7 @@ form {
     margin-right: auto;
   }
   #faq-heading {
-    text-align: center;
+    text-align: left;
   }
   .questions {
     text-decoration: underline;

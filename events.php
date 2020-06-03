@@ -12,7 +12,17 @@
         <div id="wrapper">
 
             <h1>Event Information</h1>
+
+            <nav id="quick-links">
+                <a href="#includes">Cost Includes</a>
+                <a href="#details">Course Details</a>
+                <a href="#bring">What to Bring</a>
+                <a href="#packet">Packet Pick-up</a>
+                <a href="#faq-heading">FAQ's</a>
+            </nav>
+
             <h2 class="days">Saturday Events (June 20th)</h2>
+
             <table id="saturdayTable">
                 <tbody>
                     <tr>
@@ -63,7 +73,7 @@
                 </tbody>
             </table>
 
-            <h3>Cost Includes</h3>
+            <h3 id="includes">Cost Includes</h3>
             <ul>
                 <li>Food & Beer</li>
                 <li>Access to the weekends's live entertainment & Fitness Expo</li>
@@ -74,7 +84,7 @@
             </ul>
             <p><i>Tech shirts guaranteed to pre-registered participants only</i></p>
 
-            <h2>Course Details</h2>
+            <h2 id="details">Course Details</h2>
             <ul id="detailsList">
                 <li><strong>Long Course SWIM - 1.2mi:</strong> Participants will make two counter-clockwise loops. Large
                     buoys will mark
@@ -121,7 +131,7 @@
                     and a 50 yard dash. It is free if an adult registers for an event otherwise it is $25.</li>
             </ul>
 
-            <h2>What to Bring</h2>
+            <h2 id="bring">What to Bring</h2>
             <p>Watch the weather closely. The show goes on no matter what the weather is doing. <br><br>You must wear
                 your chip timing piece during the entire event. You will be given a band that will hold your chip timing
                 piece around your ankle throughout the entire event. Be sure that it is snapped tightly. Be sure to have
@@ -141,14 +151,14 @@
                 they leave for the run. Use whatever option feels best for you. <br><br>Remember to bring a change of
                 clothing so you can enjoy the post-event festivities.</p>
 
-            <h2>Packet Pick Up</h2>
-            <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours:
+            <h2 id="packet">Packet Pick Up</h2>
+            <p>All packet pick up will occur at <span class="important">Why Worry Racing, 123 NW Everett, Portland OR.</span> Packet pick up hours:
                 Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p>
             <p><strong>COURSE DETAILS
                     WATER TEMPERATURE is expected to be between 62 & 66 degrees. The temperature will be taken on Friday
                     and the morning of the race. Wetsuits are recommended.</strong></p>
 
-                    <h2 id="faq-heading">FAQ's</h2>
+            <h2 id="faq-heading">FAQ's</h2>
             <p id="faq-small"><strong class="questions">What are the Rules?</strong> We currently adhere to the USAT
                 Rules for Triathlon &
                 Duathlon.
