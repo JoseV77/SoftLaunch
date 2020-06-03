@@ -10,7 +10,7 @@
             <img src="<?php echo BASE_URL; ?>images/logo2.jpg" id="desktop-logo" alt="logo">
         </a>
         <a href="<?php echo BASE_URL; ?>index.php">Home</a>
-        <a href="<?php echo BASE_URL; ?>events.php">Events</a>
+        <a href="<?php echo BASE_URL; ?>events.php">Events Information</a>
         <a href="<?php echo BASE_URL; ?>register">Register</a>
         <a href="<?php echo BASE_URL; ?>contact">Contact</a>
     </nav>
@@ -21,7 +21,7 @@
         </a>
         <div id="links">
             <a href="<?php echo BASE_URL; ?>index.php">Home</a>
-            <a href="<?php echo BASE_URL; ?>events.php">Events</a>
+            <a href="<?php echo BASE_URL; ?>events.php">Events Information</a>
             <a href="<?php echo BASE_URL; ?>register">Register</a>
             <a href="<?php echo BASE_URL; ?>contact">Contact</a>
         </div>
