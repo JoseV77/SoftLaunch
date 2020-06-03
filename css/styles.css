@@ -269,6 +269,7 @@ form {
   color: #FF0000;
   border-radius: 25%;
   padding: 0.5em;
+  cursor: pointer;
 }
 #submit:active {
   background: #FF0000;
