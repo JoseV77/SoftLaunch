@@ -254,6 +254,15 @@ form {
   text-align: left;
   font-size: 1.5em;
 }
+.register-inputs {
+  width: 83%;
+}
+.register-inputs-selects {
+  width: 84%;
+}
+.contact-inputs {
+  width: 98%;
+}
 #submit {
   background: #000000;
   border: solid #FF0000 2px;

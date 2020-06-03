@@ -29,10 +29,10 @@
                     <input type="text" name="honeypot" id="honeypot" value="" />
 
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required><br><br>
+                    <input type="text" id="name" name="name" class="contact-inputs" required><br><br>
 
                     <label for="email">Email:</label>
-                    <input type="text" id="email" name="email" required><br><br>
+                    <input type="text" id="email" name="email" class="contact-inputs" required><br><br>
 
                     <label for="question">Question or Comment:</label><br>
                     <textarea rows="10" cols="40" name="question" id="question" required></textarea><br><br>
