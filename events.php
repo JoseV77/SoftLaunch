@@ -206,7 +206,7 @@
 
         </div>
 
-        <button onclick="goUp()" id="top" title="Go to top">Top</button>
+        <button onclick="topFunction()" id="up-button" title="Go to top">Top</button> 
 
     </main>
 
