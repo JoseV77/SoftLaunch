@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head></head>
-    <meta charset="UTF-8">
-    <meta name="description"
-        content="Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/styles.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/cf72e27b3d.js" crossorigin="anonymous"></script>
-    <script src="../scripts.js"></script>
-    <title>Ace in the Hole Multisports Events</title>
+<meta charset="UTF-8">
+<meta name="description"
+    content="Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cf72e27b3d.js" crossorigin="anonymous"></script>
+<script src="../scripts.js"></script>
+<title>Ace in the Hole Multisports Events</title>
 </head>
 
 <body>
@@ -33,10 +33,10 @@
 
                     <form method="post" action=" ">
                         <label for="fullname">Full Name:</label><br>
-                        <input type="text" id="fullname" name="fullname" class="register-inputs"required><br>
+                        <input type="text" id="fullname" name="fullname" class="register-inputs" required><br>
 
                         <label for="age">Age:</label><br>
-                        <input type="number" id="age" name="age" class="register-inputs"required><br>
+                        <input type="number" id="age" name="age" class="register-inputs" required><br>
 
                         <label for="genders">Gender:</label><br>
                         <select id="genders" name="genders" class="register-inputs-selects">
@@ -54,13 +54,13 @@
 
 
                         <label for="email">Email:</label><br>
-                        <input type="text" id="email" name="email" class="register-inputs"required><br><br>
+                        <input type="text" id="email" name="email" class="register-inputs" required><br><br>
 
                         <label for="ename">Emergency Contact Name:</label><br>
-                        <input type="text" id="ename" name="ename" class="register-inputs"required><br>
+                        <input type="text" id="ename" name="ename" class="register-inputs" required><br>
 
                         <label for="ephone">Enter your emergency contacts phone:</label><br>
-                        <input type="tel" id="ephone" name="ephone" class="register-inputs"required><br><br>
+                        <input type="tel" id="ephone" name="ephone" class="register-inputs" required><br><br>
 
                         <label for="eventsSaturday"><strong>Saturday</strong> Events Registering For:</label><br>
                         <select id="eventsSaturday" name="eventsSaturday" class="register-inputs-selects">
@@ -131,6 +131,8 @@
                 </div>
 
             </div>
+
+            <button onclick="topFunction()" id="up-button" title="Go to top">Top</button>
 
         </div>
 

@@ -30,6 +30,8 @@
 
         </div>
 
+        <button onclick="topFunction()" id="up-button" title="Go to top">Top</button>
+
     </main>
 
     <?php require_once("../includes/footer.html.php"); ?>

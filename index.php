@@ -26,7 +26,7 @@
                         <p>Welcome to Ace in the Hole Multisport Events! Ace in the Hole Multisport Events is proud to
                             offer running and triathlon events to athletes of all shapes and sizes, national origins,
                             gender identifications and cultural backgrounds. We offer Events for Every Body.</p>
-                            
+
                         <p><span class="important">(The events will be held on June 20th and 21st, 2020.)</span></p>
 
                         <p>The Annual Ace in the Hole Multisport Weekend is a legendary event in the Oregon triathlon
@@ -53,7 +53,9 @@
                     </div>
 
                     <div id="twitter-feed">
-                    <a class="twitter-timeline" data-width="340" data-height="500" href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by pcccas222</a> <script async src="https://platform.twitter.com/widgets.js"></script> 
+                        <a class="twitter-timeline" data-width="340" data-height="500"
+                            href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by pcccas222</a>
+                        <script async src="https://platform.twitter.com/widgets.js"></script>
                     </div>
 
 
@@ -67,6 +69,8 @@
             </div>
 
         </div>
+
+        <button onclick="topFunction()" id="up-button" title="Go to top">Top</button>
 
     </main>
 

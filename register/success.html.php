@@ -33,6 +33,8 @@
                 Special Accomodations: <?php echo htmlspecialchars($accommodations, ENT_QUOTES, 'UTF-8'); ?><br>
             </p>
 
+            <button onclick="topFunction()" id="up-button" title="Go to top">Top</button>
+
         </div>
 
     </main>
