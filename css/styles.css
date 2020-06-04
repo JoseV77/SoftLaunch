@@ -166,6 +166,49 @@ td {
 #honeypot {
   display: none;
 }
+/* Forms */
+#formBox {
+  display: block;
+  text-align: center;
+}
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 1.5em;
+}
+.register-inputs {
+  width: 83%;
+}
+.register-inputs-selects {
+  width: 84%;
+}
+.contact-inputs {
+  width: 98%;
+}
+#submit {
+  background: #000000;
+  border: solid #FF0000 2px;
+  color: #FF0000;
+  border-radius: 25%;
+  padding: 0.5em;
+  cursor: pointer;
+}
+#submit:active {
+  background: #FF0000;
+  color: #000000;
+}
+#submit-contact {
+  background: #000000;
+  border: solid #FF0000 2px;
+  color: #FF0000;
+  border-radius: 25%;
+  padding: 0.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 #up-button {
   display: none;
   position: fixed;
@@ -267,39 +310,6 @@ footer p {
   to {
     opacity: 1;
   }
-}
-/* Form */
-#formBox {
-  display: block;
-  text-align: center;
-}
-form {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  font-size: 1.5em;
-}
-.register-inputs {
-  width: 83%;
-}
-.register-inputs-selects {
-  width: 84%;
-}
-.contact-inputs {
-  width: 98%;
-}
-#submit {
-  background: #000000;
-  border: solid #FF0000 2px;
-  color: #FF0000;
-  border-radius: 25%;
-  padding: 0.5em;
-  cursor: pointer;
-}
-#submit:active {
-  background: #FF0000;
-  color: #000000;
 }
 /* Tablet Stylesheets */
 @media only screen and (min-width: 481px) {
@@ -443,16 +453,6 @@ form {
   }
   #fees {
     display: block;
-  }
-  #submit-contact {
-    background: #000000;
-    border: solid #FF0000 2px;
-    color: #FF0000;
-    border-radius: 25%;
-    padding: 0.5em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
   #faq-heading {
     text-align: left;

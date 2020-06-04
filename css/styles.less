@@ -195,6 +195,50 @@ td {
     display: none;
 }
 
+/* Forms */
+
+#formBox {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.register-inputs {
+    width: 83%;
+}
+
+.register-inputs-selects {
+    width: 84%;
+}
+
+.contact-inputs {
+    width: 98%;
+}
+
+#submit {
+    .submit_properties(@black, @submit-border, @radius, @border-padding);
+    cursor: pointer;
+}
+
+#submit:active {
+    background: @red;
+    color: @black;
+}
+
+#submit-contact {
+    .submit_properties(@black, @submit-border, @radius, @border-padding);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #up-button {
     display: none; 
     position: fixed; 
@@ -315,43 +359,6 @@ footer p {
     to {
         opacity: 1
     }
-}
-
-/* Form */
-
-#formBox {
-    display: block;
-    text-align: center;
-}
-
-form {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    font-size: 1.5em;
-}
-
-.register-inputs {
-    width: 83%;
-}
-
-.register-inputs-selects {
-    width: 84%;
-}
-
-.contact-inputs {
-    width: 98%;
-}
-
-#submit {
-    .submit_properties(@black, @submit-border, @radius, @border-padding);
-    cursor: pointer;
-}
-
-#submit:active {
-    background: @red;
-    color: @black;
 }
 
 /* Tablet Stylesheets */
@@ -530,13 +537,6 @@ form {
 
     #fees {
         display: block;
-    }
-
-    #submit-contact {
-        .submit_properties(@black, @submit-border, @radius, @border-padding);
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     #faq-heading {
