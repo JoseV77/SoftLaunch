@@ -34,7 +34,7 @@
                     <label for="email">Email:</label>
                     <input type="text" id="email" name="email" class="contact-inputs" required><br><br>
 
-                    <label for="question">Question or Comment:</label><br>
+                    <label for="question">Question:</label><br>
                     <textarea rows="10" cols="40" name="question" id="question" required></textarea><br><br>
 
                     <label for="athlete">Are you a:</label><br>

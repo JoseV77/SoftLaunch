@@ -59,10 +59,10 @@
                         <label for="ename">Emergency Contact Name:</label><br>
                         <input type="text" id="ename" name="ename" class="register-inputs" required><br>
 
-                        <label for="ephone">Enter your emergency contacts phone:</label><br>
+                        <label for="ephone">Emergency Contact Phone:</label><br>
                         <input type="tel" id="ephone" name="ephone" class="register-inputs" required><br><br>
 
-                        <label for="eventsSaturday"><strong>Saturday</strong> Events Registering For:</label><br>
+                        <label for="eventsSaturday"><strong>Saturday</strong> Events:</label><br>
                         <select id="eventsSaturday" name="eventsSaturday" class="register-inputs-selects">
                             <option value="long">Long Course Triathlon 7:00 AM</option>
                             <option value="olympic">Olympic Triathlon 7:30 AM</option>
@@ -70,7 +70,7 @@
                             <option value="half">Half Marathon 7:15 AM</option>
                         </select><br><br>
 
-                        <label for="eventsSunday"><strong>Sunday</strong> Events Registering For:</label><br>
+                        <label for="eventsSunday"><strong>Sunday</strong> Events:</label><br>
                         <select id="eventsSunday" name="eventsSunday" class="register-inputs-selects">
                             <option value="spring">Sprint Triathlon 8:00 AM</option>
                             <option value="try-a-tri">Try-a-Tri 8:20 AM</option>
